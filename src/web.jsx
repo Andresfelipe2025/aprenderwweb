@@ -37,13 +37,19 @@ const Header = ({ titulo }) => {
 };
 
 // Un bloque para el contenido principal
-const Content = ({ descripcion, imagen, autor }) => {
+const Content = ({ descripcion, autor }) => { // Quitamos 'imagen' de aquí porque la tomaremos del Panel de Control
   return (
     <main className="p-8 text-center">
       <p className="text-lg mb-6">{descripcion}</p>
-      <img src={imagen} alt="Imagen de ejemplo" className="mx-auto rounded-lg shadow-md w-1/2" />
+      
+      {/* ¡AQUÍ MOSTRAMOS TU IMAGEN! */}
+      <img 
+        src={MEDIA_URLS.miImagenIA} // <-- Usamos la referencia que creamos en el Paso 2
+        alt="Una imagen creada con IA" // <-- Texto descriptivo
+        className="mx-auto rounded-lg shadow-md w-1/2" 
+      />
+      
       <div className="mt-6 flex justify-center items-center">
-        <Star className="text-yellow-400 mr-2" />
         <p className="text-slate-600">Creado por: {autor}</p>
       </div>
     </main>
