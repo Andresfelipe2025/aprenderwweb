@@ -14,7 +14,8 @@ const GITHUB_MULTIMEDIA_URL = 'https://raw.githubusercontent.com/Andresfelipe202
 
 const MEDIA_URLS = {
   // Asegúrate de tener una imagen llamada 'mi-foto-de-ejemplo.jpg' en tu carpeta 'multimedia' de GitHub.
-  fotoEjemplo: `${GITHUB_MULTIMEDIA_URL}mi-foto-de-ejemplo.jpg`, 
+  fotoEjemplo: `${GITHUB_MULTIMEDIA_URL}IA1.png`,  
+  // `${GITHUB_MULTIMEDIA_URL}IA1.png`, //  <-- ¡AQUÍ ESTÁ LA MAGIA!
 };
 
 // ## 🔴 3. CONTENIDO (Datos Estáticos)
