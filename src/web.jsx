@@ -10,7 +10,7 @@ import './styles.css';
 // ## 🔴 2. PANEL DE CONTROL (Configuración Global)
 // ¡IMPORTANTE! Aquí pondrás la URL a tu carpeta de imágenes en GitHub.
 // Más abajo te explico cómo obtener esta URL.
-const GITHUB_MULTIMEDIA_URL = 'https://raw.githubusercontent.com/Andresfelipe2025/TU_REPOSITORIO/main/multimedia/';
+const GITHUB_MULTIMEDIA_URL = 'https://raw.githubusercontent.com/Andresfelipe2025/aprenderwweb/main/multimedia/';
 
 const MEDIA_URLS = {
   // Asegúrate de tener una imagen llamada 'mi-foto-de-ejemplo.jpg' en tu carpeta 'multimedia' de GitHub.
