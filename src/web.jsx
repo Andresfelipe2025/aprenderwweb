@@ -24,7 +24,7 @@ const PAGINA_INFO = {
 // ## 🔴 4. BLOQUES DE CONSTRUCCIÓN (Componentes de Presentación)
 
 // Un bloque para la cabecera
-const Header = ({ titulo }) => {
+const Header = ({ nombre }) => {
   return (
     <header className="bg-slate-900 text-white p-6 text-center">
       <h1 className="text-4xl font-bold">{titulo}</h1>
