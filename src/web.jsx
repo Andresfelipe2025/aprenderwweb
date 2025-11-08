@@ -16,9 +16,9 @@ const MEDIA_URLS = {
 
 // ## 🔴 3. CONTENIDO (Datos Estáticos)
 const PAGINA_INFO = {
-  titulo: 'Mi Imagen de GitHub',
-  descripcion: '¡Logré mostrar una imagen desde mi repositorio!',
-  autor: 'Andrés Felipe',
+  nombre: 'Nova',
+  subnombre: 'Centro de negocios y desarrollo empresarial',
+  inicio: 'Bienvenidos',
 };
 
 // ## 🔴 4. BLOQUES DE CONSTRUCCIÓN (Componentes de Presentación)
