@@ -67,7 +67,7 @@ const Footer = () => {
 const App = () => {
   return (
     <div className="bg-slate-100 min-h-screen">
-      <Header titulo={PAGINA_INFO.titulo} />
+      <Header titulo={PAGINA_INFO.nombre} />
       <Content 
         descripcion={PAGINA_INFO.descripcion}
         autor={PAGINA_INFO.autor}
