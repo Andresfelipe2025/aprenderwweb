@@ -72,6 +72,7 @@ const App = () => {
       <Content 
         subnombre={PAGINA_INFO.subnombre}
         inicio={PAGINA_INFO.inicio}
+        nombre={PAGINA_INFO.nombre}
       />
       <Footer />
     </div>
