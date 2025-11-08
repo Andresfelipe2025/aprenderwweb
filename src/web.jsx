@@ -27,7 +27,7 @@ const PAGINA_INFO = {
 const Header = ({ nombre }) => {
   return (
     <header className="bg-slate-900 text-white p-6 text-center">
-      <h1 className="text-4xl font-bold">{titulo}</h1>
+      <h1 className="text-4xl font-bold">{nombre}</h1>
     </header>
   );
 };
