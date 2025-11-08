@@ -33,10 +33,11 @@ const Header = ({ nombre }) => {
 };
 
 // Un bloque para el contenido principal 
-const Content = ({ subnombre, inicio }) => {
+const Content = ({ subnombre, inicio, nombre }) => {
   return (
     <main className="p-8 text-center">
-      <p className="text-lg mb-6">{descripcion}</p>
+      <p className="text-lg mb-6">{inicio}</p>
+      <h2 className="text-2xl font-semibold mb-4">{subnombre}</h2>
       
       {/* Aquí usamos la referencia del Panel de Control para mostrar tu imagen */}
       <img 
