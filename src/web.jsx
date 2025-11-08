@@ -32,8 +32,8 @@ const Header = ({ nombre }) => {
   );
 };
 
-// Un bloque para el contenido principal (MODIFICADO)
-const Content = ({ descripcion, autor }) => {
+// Un bloque para el contenido principal 
+const Content = ({ subnombre, inicio }) => {
   return (
     <main className="p-8 text-center">
       <p className="text-lg mb-6">{descripcion}</p>
@@ -69,8 +69,8 @@ const App = () => {
     <div className="bg-slate-100 min-h-screen">
       <Header nombre={PAGINA_INFO.nombre} />
       <Content 
-        descripcion={PAGINA_INFO.descripcion}
-        autor={PAGINA_INFO.autor}
+        subnombre={PAGINA_INFO.subnombre}
+        inicio={PAGINA_INFO.inicio}
       />
       <Footer />
     </div>
