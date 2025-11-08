@@ -47,7 +47,7 @@ const Content = ({ subnombre, inicio }) => {
       />
       
       <div className="mt-6 flex justify-center items-center">
-        <p className="text-slate-600">Creado por: {autor}</p>
+        <p className="text-slate-600">Creado por: {nombre}</p>
       </div>
     </main>
   );
